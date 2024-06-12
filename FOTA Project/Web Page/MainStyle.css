@@ -1,0 +1,228 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: url(BG.jpg);
+	object-fit: scale-down;
+	
+}
+
+label
+{
+	margin: 5;
+	padding: 5;
+	height: 40px;
+	width: 300px;
+	font-family: arial;
+	font-size: 1.5em;
+	color: #9e9e9e;
+	position: relative;
+	top: 10%;
+	left: 10%;
+	transform: translate(0%,0%);
+	text-align: center;
+	
+}
+
+#pswlabel
+{
+	position: relative;
+	top: 15%;
+	left: 10%;
+	transform: translate(0%,0%);
+}
+
+input[type="text"]
+{
+	height: 40px;
+	font-family: arial;
+	font-size: 1.5em;
+	position: relative;
+	top: 10%;
+	left: 10%;
+	transform: translate(0%,0%);
+}
+
+/*input[type="password"]*/
+#myInput
+{
+	height: 40px;
+	font-family: arial;
+	font-size: 1.5em;
+	position: relative;
+	top: 15%;
+	left: 10%;
+	transform: translate(0%,0%);
+}
+
+input[type="checkbox"]
+{
+	height: 30px;
+	width: 30px;
+	background-color: transparent;
+	border: 2px solid #e7e7e7;
+	border-radius: 5px;
+	cursor: pointer;
+	background: url(Check.png) center/0% no-repeat;
+}
+
+input[type="checkbox"]:before
+{
+	/*content: "\2714";
+	border: 0.1em solid #d5d5d5;
+	border-radius: 0.2em;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	padding-left: 0.2em;
+	padding-bottom: 0.3em;
+	margin-right: 0.2em;
+	vertical-align: bottom;
+	color: transparent;*/
+	transition: .2s;
+	cursor: pointer;
+}
+
+input[type="checkbox"]:checked
+{
+	background-size: 80%;
+	/*background-color: #d5d5d5;*/
+}
+
+
+input[type="submit"]
+{
+	margin: 5;
+	padding: 5;
+	height: 60px;
+	width: 200px;
+	font-family: arial;
+	font-size: 2em;
+	color: #e7e7e7;
+	background: transparent;
+	position: relative;
+	border: 2px solid #e7e7e7;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color ease 200ms;
+	text-align: center;
+	top: 40%;
+	left: 0%;
+	transform: translate(-20%,0%);
+}
+
+#login:hover
+{
+	background-color: rgba(255,255,255,0.3);
+}
+
+#ChBox
+{
+	appearance: none;
+	-webkit-appearance: none;
+	position: relative;
+	top: 20%;
+	left: 15%;
+	transform: translate(0%,0%);
+}
+#SP
+{
+	position: relative;
+	top: 18%;
+	left: 17%;
+	transform: translate(0%,0%);
+}
+
+
+#Logo
+{
+	margin: 0;
+	padding: 0;
+	width: 25%;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+h1
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 2.5em;
+	color: #e7e7e7;
+	position: relative;
+	top: 15%;
+	left: 18%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+h2
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 2.5em;
+	color: #e7e7e7;
+	position: relative;
+	top: -10%;
+	left: 18%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+h3
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	width: 850px;
+	font-size: 1.2em;
+	color: #e7e7e7;
+	position: relative;
+	top: 30%;
+	left: 52%;
+	transform: translate(-50%,-50%);
+	text-align: left;
+}
+
+.Intro
+{
+	width: 950px;
+	height: 220px;
+	position: absolute;
+	top: 10%;
+	left: 35%;
+	background-color: transparent;
+	transform: translate(0%,0%);
+	border: 4px solid #e7e7e7;
+	border-radius: 20px;
+
+}
+
+.container
+{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	background-color: transparent;
+	transform: translate(50%,35%);
+}
+
+.Wrap
+{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	background-color: transparent;
+	transform: translate(0%,0%);
+
+}

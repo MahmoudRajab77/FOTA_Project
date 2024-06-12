@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FOTA</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="UploadStyle.css">
+</head>
+<body>
+
+	<img src="Logo.png" width="400" id="Logo"
+				title="Logo">
+
+	<div class="Wrapper">
+
+		<div class="Intro" >
+			<h1>Introduction</h1>
+
+			<h3>
+				<p>This website is implemented by: Abdelaziz Elmasry, Abdurrahman Anani, Yassmin Refaat, Osama Metwally, Yassmen Askr.</p>
+
+				<p>To Burn your Application using Flashig Over The Air.</p>
+				
+				<p>We hope you enjoy it.</p>
+			</h3>
+		</div>
+
+		<form action="UploadPage.php" method="POST" enctype="multipart/form-data">
+
+			<button type="submit" name="submit" id="U-button">Upload new App</button>
+
+		</form>
+
+		<form action="RemoveApp.php" method="POST" enctype="multipart/form-data">
+
+			<button type="submit" name="submit" id="R-button">Remove an App</button>
+
+		</form>
+
+		<form action="BurnPage.php" method="POST" enctype="multipart/form-data">
+
+			<button type="submit" name="submit" id="B-button">Burn an App</button>
+
+		</form>
+
+	</div>
+
+</body>
+</html>
